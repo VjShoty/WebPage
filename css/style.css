@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.page1{
+
+    background-image: url(/media/cityy.gif);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   
+}
+.head{
+    font-style: oblique;
+    font-size:xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: rgb(13, 247, 247);
+    text-align:center;
+    letter-spacing: 2px;
+}
+.ank{
+    font-size: 2em;
+    color: rgb(184, 183, 164);
+    margin-right:30px;
+    padding:2px 3px ;
+}
+.link{
+    height: 50px;
+    background-color: rgba(212, 0, 255,.2);
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 10px 10px;
+    border-radius: 8px;
+    position: relative;
+    text-align: end;
+    display:flex;
+    text-align: end;
+    justify-content:end;
+}
+.link a{
+    text-decoration: none;
+}
+.path{
+    width: 1500px;
+    margin: 250px auto;
+    padding: 2px 6px 1px;
+    font-size:50px;
+    color: rgb(252, 250, 250);
+    box-shadow:chartreuse;
+    border-color: rgb(8, 255, 231);
+    border-radius: 6px;
+   text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-shadow: 5px 5px 20px black ;
+   position: relative;
+   
+}
+.ais{
+    font-size: 30px;
+    color: rgb(247, 245, 242);
+    text-align: center;
+    position: relative;
+    bottom:250px;
+}
+#home:hover{
+    transform: scale(150%);
+}
+#service:hover{
+    transform: scale(150%);
+}
+#about:hover{
+    transform: scale(150%);
+}
+#contact:hover{
+    transform: scale(150%);
+}
+#name{
+    font-size:25px;
+    color: rgb(235, 241, 235);
+    position: relative;
+    margin-left: 10px;
+    padding: 10px;
+}
+#email{
+    font-size:25px;
+    color: rgb(235, 241, 235);
+    position: relative;
+    margin-left: 10px;
+    padding: 10px;
+}
+#birth{
+    font-size:25px;
+    color: rgb(235, 241, 235);
+    position: relative;
+    margin-left: 10px;
+    padding: 10px;
+}
+#phone{
+    font-size:25px;
+    color: rgb(235, 241, 235);
+    position: relative;
+    margin-left: 10px;
+    padding: 10px;
+}
+#loc{
+    font-size:25px;
+    color: rgb(235, 241, 235);
+    position: relative;
+    margin-left: 10px;
+    padding: 10px;
+}
+.icons{
+    width: 75px;
+    font-size:25px;
+    color: rgb(235, 241, 235);
+    position: relative;
+    bottom:670px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: rgba(240, 239, 237, 0.24);
+    display: none;
+    border-radius:10px ;
+}
+.icons.open{
+    display: block;
+}
+#greater{
+    font-size:25px;
+    color: rgb(235, 241, 235);
+    position: relative;
+    margin-left: 10px;
+    bottom: 690px;
+    padding: 10px;
+}
+.page2{
+    background-image:url(/media/blue.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.wel{
+    font-size: 50px;
+    text-align:end;
+    position: relative;
+    top: 100px;
+    right:300px;
+}
+.para{
+    font-family:Coronetscript;
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+    left: 790px;
+}
+.mnk{
+    font-size: 2em;
+    color: rgb(10, 10, 10);
+    margin-right:30px;
+    padding:2px 3px ;
+    position: relative;
+    left:1400px;
+    text-align: end;
+    text-decoration: none;
+}
+
+.page3{
+    background-image: url(/media/our.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.our{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    color: antiquewhite;
+    position: relative;
+    top: 150px;
+    left: 300px;
+    text-shadow: 2px 5px 3px black;
+}
+
+
+
+.tb{
+    
+    width: 900px;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    margin: 20px;
+    padding: 20px;
+    border-spacing: 30px;
+    
+    border-radius: 10px;
+}
+
+td{
+    text-shadow: 3px 2px 3px black;
+    color: rgb(232, 236, 240);
+    padding: 10px;
+    border: 2px solid rgba(234, 235, 232, 0.507) ;
+    border-radius: 10px;
+    background-color: rgba(63, 219, 32, 0.089);
+    
+}
+#bpo:hover{
+    transform: scale(110%);
+}
+#cal:hover{
+    transform: scale(110%);
+}
+#ann:hover{
+    transform: scale(110%);
+}
+#dat:hover{
+    transform: scale(110%);
+}
+#mor:hover{
+    transform: scale(110%);
+}
+#for:hover{
+    transform: scale(110%);
+}
+#off:hover{
+    transform: scale(110%);
+}
+#onl:hover{
+    transform: scale(110%);
+}
+pre{
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    left: 265px;
+    bottom: 370px;
+}
+.arw{
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    bottom: 413px;
+    left: 351px;
+}
+.jj{
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    bottom: 447px;
+    left: 780px;
+}
+.long{
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    bottom: 550px;
+    left: 557px;
+}
+
